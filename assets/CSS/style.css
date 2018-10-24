@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+header {
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 290px;
+    
+    
+    
+}
+.container-img{
+    
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.icones-header{
+    display: flex;
+    flex-direction: row;
+}
