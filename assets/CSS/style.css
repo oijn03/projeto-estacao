@@ -1,6 +1,14 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+body p {
+    color: rgb(172, 161, 161);
+}
+
+/* HEADER  */
+
 header {
     background-image: url(../images/background.png);
     background-size: cover;
@@ -9,21 +17,121 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 290px;
-    
-    
-    
+    margin: 0 290px;   
 }
+
 .container-img{
     
 }
 .container-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;;
     
 }
 .icones-header{
     display: flex;
     flex-direction: row;
+}
+
+/* MAIN */
+
+.funcoes {
+    height: 287px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-funcoes {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.funcoes-icone {
+    display: flex;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    align-items: center;
+    justify-content: center;
+    background-color: #32c972;
+}
+
+.funcoes-icone img {
+    width: 45%;
+}
+
+.funcoes-texto h2 {
+    font-size: 18px;
+}
+
+.funcoes-texto p {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+
+.notificacao {
+    height: 360px;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 50px;
+}
+
+.container-form h2 {
+    font-size: 19px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.container-form p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.form-email {
+    width: 239px;
+    height: 45px;
+    border-radius: 11px 0px 0px 11px;
+    border: 1px solid #b1adad;
+    font-size: 15px;
+    padding-left: 21px;
+}
+
+.form-submit {
+    width: 120px;
+    height: 49px;
+    border-radius: 0px 11px 11px 0px;
+    border: 1px solid #32c972;
+    color: #FFF;
+    background-color: #32c972;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.video {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border-radius: 20px;
 }
